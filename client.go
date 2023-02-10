@@ -2,8 +2,9 @@ package mpesa
 
 import (
 	"fmt"
-	"github.com/techcraftlabs/base"
 	"net/http"
+
+	"github.com/techcraftlabs/base"
 )
 
 var (
@@ -79,6 +80,10 @@ func (r requestType) Group() string {
 	default:
 		return ""
 	}
+}
+
+func (r requestType) RecipientMNO() string {
+	return ""
 }
 
 func (r requestType) String() string {

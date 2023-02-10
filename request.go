@@ -2,8 +2,9 @@ package mpesa
 
 import (
 	"fmt"
-	"github.com/techcraftlabs/base"
 	"strings"
+
+	"github.com/techcraftlabs/base"
 )
 
 func (eps *Endpoints) Get(requestType requestType) string {
