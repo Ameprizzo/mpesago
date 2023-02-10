@@ -82,9 +82,9 @@ func (r requestType) Group() string {
 	}
 }
 
-func (r requestType) RecipientMNO() string {
-	return ""
-}
+// func (r requestType) RecipientMNO() string {
+// 	return ""
+// }
 
 func (r requestType) String() string {
 
